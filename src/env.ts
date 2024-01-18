@@ -1,0 +1,12 @@
+const BASIC_AUTH_USERNAME = Deno.env.get("BASIC_AUTH_USERNAME") ?? "";
+const BASIC_AUTH_PASSWORD = Deno.env.get("BASIC_AUTH_PASSWORD") ?? "";
+
+const TWITTER_AUTH_TOKEN = Deno.env.get("TWITTER_AUTH_TOKEN") ?? "";
+const TWITTER_CT0 = Deno.env.get("TWITTER_CT0") ?? "";
+
+export {
+  BASIC_AUTH_PASSWORD,
+  BASIC_AUTH_USERNAME,
+  TWITTER_AUTH_TOKEN,
+  TWITTER_CT0,
+};
